@@ -1,1 +1,0 @@
-document.getElementById("par").innerHTML="Hello World";

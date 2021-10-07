@@ -1,0 +1,9 @@
+main{
+    background-color: blue;
+    height: 50vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
