@@ -1,0 +1,24 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 5vh;
+    background-color: coral;
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+button{
+    width: 2rem;
+}
+
+.hero{
+    height: 55vh;
+    background-color:cornsilk;
+}
