@@ -2,23 +2,43 @@
     padding:0;
     margin: 0;
     box-sizing: border-box;
+    ::-webkit-scrollbar{
+        display: none;
+    }
+}
+p{
+    color: white;
 }
 nav{
-    height: 5vh;
-    background-color: coral;
+    position: sticky;
     display: flex;
-    justify-content: space-around;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 10vh;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    background-color: coral;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 1rem 0 1rem;
 }
 ul{
+    color: white;
     list-style: none;
     display: flex;
     gap: 1rem;
 }
 button{
+    color: white;
+    border: 0;
+    cursor: pointer;
+    background-color: transparent;
     width: 2rem;
+    height: 2rem;
+    // display: none;
 }
 footer{
-    height: 5vh;
+    height: 10vh;
     background-color: coral;
 }
 .hero{
@@ -26,7 +46,6 @@ footer{
     background-color:cornsilk;
 }
 .lang-banner{
-    height: 35vh;
+    height: 50vh;
     background-color:burlywood;
-    
 }
