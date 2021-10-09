@@ -10,7 +10,7 @@
 }
 
 p {
-  color: white;
+  color: silver;
 }
 
 nav {
@@ -58,7 +58,18 @@ footer {
   background-color: coral;
 }
 
+img {
+  width: 22rem;
+  height: 20rem;
+}
+
 .hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 55vh;
   background-color: cornsilk;
 }

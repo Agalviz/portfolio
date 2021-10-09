@@ -7,7 +7,7 @@
     }
 }
 p{
-    color: white;
+    color: silver;
 }
 nav{
     position: sticky;
@@ -41,7 +41,16 @@ footer{
     height: 10vh;
     background-color: coral;
 }
+img{
+    width: 22rem;
+    height: 20rem;
+
+}
+//add classes (above) ^
+
 .hero{
+    display: flex;
+    align-items: center;
     height: 55vh;
     background-color:cornsilk;
 }
