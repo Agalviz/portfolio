@@ -63,6 +63,11 @@ img {
   height: 20rem;
 }
 
+.bars {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
 .hero {
   display: -webkit-box;
   display: -ms-flexbox;
