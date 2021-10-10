@@ -75,6 +75,8 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   height: 55vh;
   background-color: cornsilk;
 }
@@ -82,5 +84,19 @@ img {
 .lang-banner {
   height: 50vh;
   background-color: burlywood;
+}
+
+.about {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border: black solid 1px;
+  text-align: justify;
+  line-height: 1.5rem;
+  width: 25rem;
+  padding: 1rem;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 2px 10px 2px grey;
+          box-shadow: 0px 2px 10px 2px grey;
 }
 /*# sourceMappingURL=styles.css.map */
