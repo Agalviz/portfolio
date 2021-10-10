@@ -60,7 +60,7 @@ img{
 }
 .lang-banner{
     text-align: center;
-    height: 50vh;
+    height:fit-content;
     background-color:burlywood;
 }
 .about{
@@ -81,8 +81,13 @@ img{
     margin: 10px;
     height: 10rem;
     width: 10rem;
+    &__img{
+       height: 8rem;
+       width: 8rem; 
+    }
   }
 .skills-gallery{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }

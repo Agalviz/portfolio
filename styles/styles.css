@@ -83,7 +83,9 @@ img {
 
 .lang-banner {
   text-align: center;
-  height: 50vh;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   background-color: burlywood;
 }
 
@@ -112,10 +114,17 @@ img {
   width: 10rem;
 }
 
+.icon-card__img {
+  height: 8rem;
+  width: 8rem;
+}
+
 .skills-gallery {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
