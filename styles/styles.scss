@@ -95,3 +95,12 @@ img{
     justify-content: center;
     padding: 1rem;
 }
+.project-gallery{
+    text-align: center;
+    height: 90vh;
+    background-color: honeydew;
+    &__h1{
+        padding-top: 1rem;
+
+    }
+}
