@@ -97,10 +97,14 @@ img{
 }
 .project-gallery{
     text-align: center;
-    height: 90vh;
+    height: fit-content;
     background-color: honeydew;
     &__h1{
         padding-top: 1rem;
 
+    }
+    &__gif{
+        height: 20rem;
+        width: 75%;
     }
 }

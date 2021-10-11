@@ -139,11 +139,18 @@ img {
 
 .project-gallery {
   text-align: center;
-  height: 90vh;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   background-color: honeydew;
 }
 
 .project-gallery__h1 {
   padding-top: 1rem;
+}
+
+.project-gallery__gif {
+  height: 20rem;
+  width: 75%;
 }
 /*# sourceMappingURL=styles.css.map */
