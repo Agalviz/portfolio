@@ -14,22 +14,21 @@
     <title>Anthony Galviz | Web Developer</title>
 </head>
 <body>
-    <main>
-        <!-- nav bar -->
-        <nav class="navbar">
-            <p>Anthony Galviz</p>
-            <ul>
-                <li class="navbar__links">LINKS</li>
-                <li class="navbar__links">LINKS</li>
-                <li class="navbar__links">LINKS</li>
-            </ul>
-            <button>
-            <ion-icon class="bars" name="menu-outline"></ion-icon>
-            </button>
-
-        </nav>
-        <!-- hero -->
-        <section class="hero">
+  <main>
+    <!-- nav bar -->
+    <nav class="navbar">
+      <p>Anthony Galviz</p>
+      <ul>
+          <li class="navbar__links">LINKS</li>
+          <li class="navbar__links">LINKS</li>
+          <li class="navbar__links">LINKS</li>
+      </ul>
+      <button>
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+    <!-- hero -->
+    <section class="hero">
             <img src="./assets/icons/favicon.png" alt="Place holder image">
             <section class="about">
                 <h2>About Me</h2>
@@ -40,9 +39,9 @@
                   iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
                 </p>
               </section>
-        </section>
-        <!-- banner -->
-        <section class="skills-banner">
+    </section>
+    <!-- banner -->
+    <section class="skills-banner">
           <h2 class="lang-banner__h1">My Skills</h2>
           <div class="skills-gallery">
             <div class="icon-card">
@@ -78,9 +77,9 @@
               <p>Express.js</p>
             </div>
           </div>
-        </section>
-        <!-- project gallery -->
-        <section class="project-gallery">
+    </section>
+    <!-- project gallery -->
+    <section class="project-gallery">
           <h2 class="project-gallery__h1">Projects</h2>
           <div>
           <img class="project-gallery__gif" src="./assets/images/coffee-shop.gif" alt="">
@@ -105,10 +104,59 @@
         <img class="project-gallery__gif" src="./assets/images/paws-nyc.gif" alt="">
         <h3>PAWS NYC</h3>
       </div>
-        </section>
-        <!-- end -->
-        <footer></footer>
-    </main>
+    </section>
+    <!-- contact form -->
+    <section class="contact" id="contact">
+          <h2>Get In Touch With Me</h2>
+          <div class="contact-form-container">
+            <div class="contact-form">
+              <form action="https://formspree.io/f/mleavkbn" method="POST">
+                <div class="form-control">
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="sender-name"
+                    placeholder="Enter Your Name"
+                    class="input-field"
+                    required
+                  />
+                </div>
+                <div class="form-control">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="sender-email"
+                    placeholder="Enter Your Email"
+                    class="input-field"
+                    required
+                  />
+                </div>
+                <div class="form-control">
+                  <label for="message">Message</label>
+                  <textarea
+                    id="message"
+                    cols="60"
+                    rows="10"
+                    placeholder="Enter Your Message"
+                    name="message"
+                    class="input-field"
+                    required
+                  ></textarea>
+                </div>
+                <input
+                  type="submit"
+                  value="Submit"
+                  id="submit-btn"
+                  class="submit-btn"
+                />
+              </form>
+            </div>
+          </div>
+          <footer></footer>
+    </section>
+  </main>
 <script src="js/script.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
