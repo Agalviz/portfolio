@@ -81,7 +81,7 @@ img {
   background-color: cornsilk;
 }
 
-.lang-banner {
+.skills-banner {
   text-align: center;
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -89,7 +89,7 @@ img {
   background-color: burlywood;
 }
 
-.lang-banner__h1 {
+.skills-banner__h1 {
   padding-top: 1rem;
 }
 
