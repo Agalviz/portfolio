@@ -38,6 +38,8 @@ button{
     // display: none;
 }
 footer{
+    display: flex;
+    align-items: center;
     height: 10vh;
     background-color: coral;
 }
@@ -149,4 +151,8 @@ img{
     font-size: 1rem;
     font-weight:500;
     transition:0.3s;
+  }
+  .social-icon{
+      height: 3.5rem;
+      width: 3.5rem;
   }
