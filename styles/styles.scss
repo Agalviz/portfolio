@@ -1,6 +1,9 @@
+@import "./partials/partial";
+
 *{
     padding:0;
     margin: 0;
+    text-decoration: none;
     box-sizing: border-box;
     ::-webkit-scrollbar{
         display: none;
@@ -27,6 +30,7 @@ ul{
     list-style: none;
     display: flex;
     gap: 1rem;
+   
 }
 button{
     color: white;
@@ -49,7 +53,7 @@ img{
 
 }
 //add classes (above) ^
-.bars{
+.burger{
     color: white;
     width: 1.5rem;
     height: 1.5rem; 
