@@ -32,15 +32,6 @@ ul{
     gap: 1rem;
    
 }
-button{
-    color: white;
-    border: 0;
-    cursor: pointer;
-    background-color: transparent;
-    width: 2rem;
-    height: 2rem;
-    display: none;
-}
 footer{
     display: flex;
     align-items: center;
@@ -52,11 +43,21 @@ img{
     height: 20rem;
 
 }
+button{
+    // display: none;
+    background-color: transparent;
+    border: none;
+}
 //add classes (above) ^
 .burger{
-    color: white;
-    width: 1.5rem;
-    height: 1.5rem; 
+    color: black;
+    border: 0;
+    cursor: pointer;
+    background-color: transparent;
+    &__bars{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
 }
 .hero{
     display: flex;
