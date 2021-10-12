@@ -35,7 +35,7 @@ button{
     background-color: transparent;
     width: 2rem;
     height: 2rem;
-    // display: none;
+    display: none;
 }
 footer{
     display: flex;
@@ -50,6 +50,7 @@ img{
 }
 //add classes (above) ^
 .bars{
+    color: white;
     width: 1.5rem;
     height: 1.5rem; 
 }
@@ -152,7 +153,7 @@ img{
     font-weight:500;
     transition:0.3s;
   }
-  .social-icon{
+.social-icon{
       height: 3.5rem;
       width: 3.5rem;
   }
