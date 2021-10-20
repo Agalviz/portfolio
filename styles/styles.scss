@@ -33,6 +33,7 @@ ul{
 }
 footer{
     display: flex;
+    justify-content: space-around;
     align-items: center;
     height: 10vh;
     background-color: coral;
@@ -81,10 +82,12 @@ button{
 //add classes (above) ^
 .hero{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 55vh;
+    height: fit-content;
     background-color:cornsilk;
+    padding-bottom: 1rem;
 }
 .skills-banner{
     text-align: center;
