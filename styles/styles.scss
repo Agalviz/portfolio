@@ -47,7 +47,7 @@ button{
     background-color: transparent;
     border: none;
 }
-//******//
+//mobile-menu
 .menu{
     position: fixed;
     transform: translateY(-100%);
@@ -78,8 +78,6 @@ button{
   .showMenu {
     transform: translateY(0);
   }
-//******//
-
 //add classes (above) ^
 .hero{
     display: flex;
