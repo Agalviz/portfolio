@@ -1,18 +1,3 @@
-@font-face {
-  font-family: Avenir;
-  src: url("../assets/Fonts/AvenirNextProLT/Linotype - AvenirNextLTPro-Regular.otf") format("opentype");
-}
-
-@font-face {
-  font-family: Avenir-demi;
-  src: url("../assets/Fonts/AvenirNextProLT/Linotype - AvenirNextLTPro-Demi.otf") format("opentype");
-}
-
-@font-face {
-  font-family: Avenir-bold;
-  src: url("../assets/Fonts/AvenirNextProLT/Linotype - AvenirNextLTPro-Bold.otf") format("opentype");
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -145,7 +130,6 @@ button {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  background-color: cornsilk;
   padding-bottom: 1rem;
 }
 
@@ -177,7 +161,6 @@ button {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  background-color: burlywood;
 }
 
 .skills-banner__h1 {
@@ -219,7 +202,6 @@ button {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  background-color: honeydew;
 }
 
 .project-gallery__h1 {

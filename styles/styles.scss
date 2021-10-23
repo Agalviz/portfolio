@@ -1,5 +1,7 @@
 @import "./partials/partial";
 
+
+
 *{
     padding:0;
     margin: 0;
@@ -8,9 +10,9 @@
     ::-webkit-scrollbar{
         display: none;
     }
-}
+  }
 p{
-    color: black;
+    color:black;
 }
 nav{
     position: sticky;
@@ -85,7 +87,6 @@ button{
     align-items: center;
     justify-content: space-around;
     height: fit-content;
-    background-color:cornsilk;
     padding-bottom: 1rem;
 }
 .about{
@@ -108,7 +109,6 @@ button{
 .skills-banner{
   text-align: center;
   height:fit-content;
-  background-color:burlywood;
   &__h1{
       padding-top: 1rem;
   }
@@ -135,7 +135,6 @@ button{
 .project-gallery{
     text-align: center;
     height: fit-content;
-    background-color: honeydew;
     &__h1{
         padding-top: 1rem;
 
