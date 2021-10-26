@@ -1,5 +1,6 @@
 @import "./partials/color.scss";
 
+
 *{
     padding:0;
     margin: 0;
@@ -43,7 +44,7 @@ footer{
   justify-content: space-between;
   align-items: center;
   height: 10vh;
-  width: 80%;
+  width: 85%;
 }
 img{
     width: 22rem;
@@ -207,8 +208,8 @@ button{
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    background-color:cornsilk;
-    border: 2px solid cornflowerblue;
+    background-color: transparent;
+    border: rgba(173, 138, 138, 0.349) double 5px;
     border-radius: 5px;
     font-size: 1rem;
     font-weight:500;

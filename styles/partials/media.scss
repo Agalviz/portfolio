@@ -1,7 +1,9 @@
-@import "./partial";
+@import "./color.scss";
+
+$desktop: 1440px;
+$tablet: 768px;
 
 * {
-  font-family: $avenir;
   color: $black-color;
   font-size: 13px;
 }
@@ -30,7 +32,7 @@
 
 //Fonts
 h1 {
-  font-family: $avenir-bold;
+ 
   font-size: 1.5rem;
   line-height: 2rem;
   @include tablet {
@@ -40,11 +42,10 @@ h1 {
 }
 
 h2 {
-  font-family: $avenir-demi;
+ 
   font-size: 0.875rem;
   line-height: 1.375rem;
   @include tablet {
-    font-family: $avenir-bold;
     font-size: 1rem;
     line-height: 2rem;
   }
@@ -53,7 +54,6 @@ h3 {
   @include tablet {
     font-size: 1rem;
     line-height: 1.5rem;
-    font-family: $avenir-demi;
   }
 }
 
@@ -61,7 +61,7 @@ h4,
 p {
   font-size: 0.812rem;
   line-height: 1.125rem;
-  font-family: $avenir;
+
   @include tablet {
     font-size: 0.875rem;
     line-height: 1.375rem;
