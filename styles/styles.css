@@ -199,7 +199,7 @@ button {
 }
 
 .skills-banner__h1 {
-  padding-top: 1rem;
+  padding: 1rem;
 }
 
 .icon-card {
@@ -244,10 +244,6 @@ button {
   height: fit-content;
 }
 
-.project-gallery__h1 {
-  padding-top: 1rem;
-}
-
 .project-gallery__gif {
   -webkit-box-shadow: 0 3px 10px;
           box-shadow: 0 3px 10px;
@@ -255,6 +251,10 @@ button {
   border: rgba(173, 138, 138, 0.349) double 5px;
   height: 20rem;
   width: 80%;
+}
+
+.project-gallery__title {
+  padding: 1rem;
 }
 
 .contact {
@@ -274,7 +274,7 @@ button {
 .contact h2 {
   width: 100%;
   text-align: center;
-  margin-bottom: 1rem;
+  padding: 1rem;
 }
 
 .contact-form-container {
