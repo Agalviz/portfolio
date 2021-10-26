@@ -101,10 +101,19 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 3rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.menu__item {
+  color: blanchedalmond;
+  font-size: 2rem;
 }
 
 .hamburger {

@@ -68,7 +68,13 @@ button{
     padding-top: 4rem;
     display: flex;
     align-items: center;
+    justify-content: flex-start;
+    gap: 3rem;
     flex-direction: column;
+    &__item{
+      color: blanchedalmond;
+      font-size: 2rem;
+    }
 }
 .hamburger {
     position: absolute;
