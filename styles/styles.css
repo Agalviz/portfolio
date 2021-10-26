@@ -80,7 +80,7 @@ button {
   right: 0;
   bottom: 0;
   z-index: 99;
-  background: salmon;
+  background-color: slategray;
   padding-top: 4rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -256,6 +256,7 @@ button {
 
 .contact-form-container {
   width: 80%;
+  padding: 1rem;
   border-radius: 1rem;
   -webkit-box-shadow: 0 3px 10px;
           box-shadow: 0 3px 10px;

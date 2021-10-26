@@ -1,12 +1,5 @@
 @import "./partials/color.scss";
 
-
-// body{
-
-// background-color:$mercury;
-// }
-
-
 *{
     padding:0;
     margin: 0;
@@ -63,7 +56,7 @@ button{
     right: 0;
     bottom: 0;
     z-index: 99;
-    background:salmon;
+    background-color:slategray;
     padding-top: 4rem;
     display: flex;
     align-items: center;
@@ -78,10 +71,10 @@ button{
     background:transparent;
     cursor: pointer;
   }
-  .closeIcon {
+.closeIcon {
     display: none;
   }
-  .showMenu {
+.showMenu {
     transform: translateY(0);
   }
 //add classes (above) ^
@@ -172,6 +165,7 @@ button{
   }
 .contact-form-container {
     width: 80%;
+    padding: 1rem;
     border-radius: 1rem;
     box-shadow: 0 3px 10px;
     border: rgba(173, 138, 138, 0.349) double 5px;
