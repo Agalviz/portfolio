@@ -162,13 +162,13 @@ button {
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-
+  
   &__container {
+    justify-content: center;
     margin-top: 2rem;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+
     gap: 2.5rem;
   }
   &__gif {

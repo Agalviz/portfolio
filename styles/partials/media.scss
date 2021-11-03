@@ -69,8 +69,14 @@ p {
 
 .project-gallery__container {
   @include desktop {
-    margin-left: 5rem;
-    justify-content: left;
+    flex-wrap: nowrap;
+    display:inline-flex;
+    justify-content: center;
+  
+  }
+  @include tablet{
+    flex-wrap: nowrap;
+    display:inline-flex;
   }
 }
 .project-gallery {
