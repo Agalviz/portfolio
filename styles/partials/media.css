@@ -52,9 +52,9 @@ p {
 @media screen and (min-width: 1440px) {
   .project-gallery__container {
     margin-left: 5rem;
-    -webkit-box-pack: left !important;
-        -ms-flex-pack: left !important;
-            justify-content: left !important;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
   }
 }
 
@@ -68,10 +68,10 @@ p {
 
 @media screen and (min-width: 1440px) {
   .skills-gallery {
-    -webkit-box-orient: horizontal !important;
-    -webkit-box-direction: normal !important;
-        -ms-flex-direction: row !important;
-            flex-direction: row !important;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;

@@ -70,7 +70,7 @@ p {
 .project-gallery__container {
   @include desktop {
     margin-left: 5rem;
-    justify-content: left !important;
+    justify-content: left;
   }
 }
 .project-gallery {
@@ -80,7 +80,7 @@ p {
 }
 .skills-gallery {
   @include desktop {
-    flex-direction: row !important;
+    flex-direction: row;
     justify-content: center;
   }
 }
