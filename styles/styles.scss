@@ -102,13 +102,13 @@ button {
 }
 .about {
   height: fit-content;
-  border-radius: 1rem;
-  border: rgba(173, 138, 138, 0.349) double 5px;
+  border-radius: 0.2rem;
+  border: rgba(240, 240, 240, 0.24);
+  box-shadow: 0 3px 10px;
   text-align: left;
   line-height: 1.5rem;
   width: 80%;
   padding: 1rem 3rem 1rem 3rem;
-  box-shadow: 0 3px 10px;
   &__p {
     font-size: 1.2rem;
     font-weight: 300;
@@ -148,15 +148,14 @@ button {
 }
 .skills-gallery {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
   border-radius: 1rem;
-
   padding: 1rem;
   width: 100%;
 }
-
 .project-gallery {
   text-align: center;
   height: fit-content;
@@ -177,7 +176,6 @@ button {
     border-radius: 0.2rem;
     border: rgba(240, 240, 240, 0.24);
     height: 15rem;
-    // width: 80%;
   }
   &__title {
     padding: 1rem;
@@ -197,7 +195,8 @@ button {
 .contact-form-container {
   width: 80%;
   padding: 1rem;
-  border-radius: 1rem;
+  border-radius: 0.2rem;
+  border: rgba(240, 240, 240, 0.24);
   box-shadow: 0 3px 10px;
 }
 .contact-form-container label {
