@@ -33,7 +33,6 @@ ul {
   gap: 1rem;
 }
 footer {
-  padding: 1rem;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -43,7 +42,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   height: 10vh;
-  width: 85%;
+  width:22rem;
 }
 img {
   width: 22rem;
@@ -150,18 +149,20 @@ img {
   align-items: center;
   border-radius: 1rem;
   padding: 1rem;
-  width: 100%;
+  width: 22rem;
 }
 .project-gallery {
   text-align: center;
   height: fit-content;
   margin-top: 2rem;
   display: flex;
+  align-items: center;
   flex-direction: column;
   
   &__container {
     justify-content: center;
     margin-top: 2rem;
+    width: 22rem;
     display: flex;
     flex-wrap: wrap;
 
