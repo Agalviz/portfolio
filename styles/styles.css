@@ -1,5 +1,4 @@
 * {
-  color: #323232;
   font-size: 16px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -169,11 +168,6 @@ img {
   height: 20rem;
 }
 
-button {
-  background-color: transparent;
-  border: none;
-}
-
 .menu {
   position: fixed;
   -webkit-transform: translateY(-100%);
@@ -216,6 +210,7 @@ button {
   top: 1rem;
   right: 1rem;
   padding: 4px;
+  border: none;
   background: transparent;
   cursor: pointer;
 }
@@ -431,9 +426,8 @@ button {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
-  background-color: transparent;
-  border: rgba(173, 138, 138, 0.349) double 5px;
   border-radius: 5px;
+  border: 2px outset;
   font-size: 1rem;
   font-weight: 500;
   -webkit-transition: 0.3s;
