@@ -253,7 +253,7 @@ img {
           box-shadow: 0 3px 10px;
   text-align: left;
   line-height: 1.5rem;
-  width: 80%;
+  width: 22rem;
   padding: 1rem 3rem 1rem 3rem;
 }
 
@@ -394,7 +394,7 @@ img {
 }
 
 .contact-form-container {
-  width: 80%;
+  width: 22rem;
   padding: 1rem;
   border-radius: 0.2rem;
   border: rgba(240, 240, 240, 0.24);
@@ -438,5 +438,9 @@ img {
 .social-icon {
   height: 3.5rem;
   width: 3.5rem;
+}
+
+.form-control > input, textarea {
+  padding-left: .5rem;
 }
 /*# sourceMappingURL=styles.css.map */
