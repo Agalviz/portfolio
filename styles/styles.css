@@ -219,6 +219,7 @@ footer {
 }
 
 .hero {
+  background-color: yellowgreen;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -229,20 +230,24 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100vh;
   padding-bottom: 1rem;
 }
 
+.hero__img {
+  border: 2px solid aqua;
+  height: 15;
+  width: 20rem;
+}
+
 .about {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
   border-radius: 0.2rem;
   border: rgba(240, 240, 240, 0.24);
   -webkit-box-shadow: 0 3px 10px;
           box-shadow: 0 3px 10px;
   text-align: left;
   line-height: 1.5rem;
+  width: 26.6rem;
+  height: 15rem;
   padding: 1rem 3rem 1rem 3rem;
 }
 
@@ -287,16 +292,12 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 10px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  padding: 1rem;
+  width: 26.6rem;
 }
 
 .icon-card__img {
@@ -322,11 +323,11 @@ footer {
 }
 
 .project-gallery {
+  background-color: salmon;
   text-align: center;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  margin-top: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -384,7 +385,7 @@ footer {
 }
 
 .contact-form-container {
-  width: 26rem;
+  width: 26.6rem;
   padding: 1rem;
   border-radius: 0.2rem;
   border: rgba(240, 240, 240, 0.24);
