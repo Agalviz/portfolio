@@ -159,7 +159,7 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   height: 10vh;
-  width: 22rem;
+  width: 26.6rem;
 }
 
 .menu {
@@ -219,7 +219,6 @@ footer {
 }
 
 .hero {
-  background-color: yellowgreen;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -234,7 +233,6 @@ footer {
 }
 
 .hero__img {
-  border: 2px solid aqua;
   height: 15;
   width: 20rem;
 }
@@ -261,7 +259,6 @@ footer {
 }
 
 .skills-banner {
-  background-color: pink;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -284,7 +281,8 @@ footer {
 }
 
 .icon-card {
-  background-color: #fff;
+  -webkit-box-shadow: 0 3px 10px;
+          box-shadow: 0 3px 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -323,7 +321,6 @@ footer {
 }
 
 .project-gallery {
-  background-color: salmon;
   text-align: center;
   height: -webkit-fit-content;
   height: -moz-fit-content;
