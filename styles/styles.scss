@@ -96,7 +96,6 @@ footer {
 }
 .about {
   border-radius: 0.2rem;
-  border: rgba(240, 240, 240, 0.24);
   box-shadow: 0 3px 10px;
   text-align: left;
   line-height: 1.5rem;
@@ -121,27 +120,41 @@ footer {
   &__h1 {
     padding: 1rem;
   }
+
+  &__con{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
 }
 .icon-card {
+  background-color: white;
   box-shadow: 0 3px 10px;
-
+  border-radius: 0.2rem;
   display: flex;
+  width: 95%;
   flex-direction: column;
   align-items: center;
-  margin: 10px;
-  padding: 1rem;
-  width: 26.6rem;
-  &__img {
-    height: 22rem;
-    width: 22rem;
+  margin-top: 1rem;
+  padding: .5rem;
+
+  &__img{
+    height: 5rem;
   }
 }
 .skills-gallery {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 1rem;
-  width:fit-content;
+  align-items:flex-start;
+  width: 13.3rem;
+
+  &__2{ 
+     display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    width: 13.3rem;
+    
+  }
 }
 .project-gallery {
   text-align: center;
