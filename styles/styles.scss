@@ -42,7 +42,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   height: 10vh;
-  width:26.6rem;
+  width:13.3rem;
 }
 
 //mobile-menu
@@ -71,7 +71,7 @@ footer {
   position: absolute;
   z-index: 100;
   top: 1rem;
-  right: 1rem;
+  right: 1.2rem;
   padding: 4px;
   border: none;
   background: transparent;
@@ -90,8 +90,8 @@ footer {
   align-items: center;
   padding-bottom: 1rem;
     &__img{
-      height: 15;
-      width: 20rem;
+      height: 6rem;
+      width: 10rem;
         }
 }
 .about {
@@ -99,9 +99,8 @@ footer {
   box-shadow: 0 3px 10px;
   text-align: left;
   line-height: 1.5rem;
-  width: 26.6rem;
-  height: 15rem;
   padding: 1rem 3rem 1rem 3rem;
+  width: 13.3rem;
   &__p {
     font-size: 1.2rem;
     font-weight: 300;
@@ -123,7 +122,6 @@ footer {
 
   &__con{
     display: flex;
-    width: 100%;
     justify-content: center;
   }
 }
@@ -146,13 +144,12 @@ footer {
   display: flex;
   flex-direction: column;
   align-items:flex-start;
-  width: 13.3rem;
 
   &__2{ 
-     display: flex;
+    display: flex;
+    width: 6.65rem;
     flex-direction: column;
     align-items:flex-end;
-    width: 13.3rem;
     
   }
 }
@@ -173,10 +170,15 @@ footer {
     box-shadow: 0 3px 10px;
     border-radius: 0.2rem;
     border: rgba(240, 240, 240, 0.24);
-    height: 15rem;
+    height: 10em;
+    width: 5rem;
   }
   &__title {
     padding: 1rem;
+  }
+
+  &__card{
+    background-color: aquamarine;
   }
 }
 .contact {
@@ -191,7 +193,7 @@ footer {
   padding: 1rem;
 }
 .contact-form-container {
-  width:26.6rem;
+  width:13.3rem;
   padding: 1rem;
   border-radius: 0.2rem;
   border: rgba(240, 240, 240, 0.24);
