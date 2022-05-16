@@ -230,7 +230,6 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-bottom: 1rem;
 }
 
 .hero__img {
@@ -244,7 +243,6 @@ footer {
           box-shadow: 0 3px 10px;
   text-align: left;
   line-height: 1.5rem;
-  padding: 1rem 3rem 1rem 3rem;
   width: 19rem;
   height: 13rem;
 }
@@ -285,11 +283,9 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 4rem;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   width: 22rem;
-  border: solid black 2px;
 }
 
 .icon-card {
@@ -300,7 +296,8 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 95%;
+  width: 80%;
+  margin: .5rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -308,8 +305,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 1rem;
-  padding: .5rem;
+  padding: 1rem;
 }
 
 .icon-card__img {
@@ -317,6 +313,7 @@ footer {
 }
 
 .skills-gallery {
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -324,23 +321,23 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .skills-gallery__2 {
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 6.65rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .project-gallery {
@@ -379,7 +376,7 @@ footer {
   border-radius: 0.2rem;
   border: rgba(240, 240, 240, 0.24);
   height: 13rem;
-  width: 19rem;
+  width: 20rem;
 }
 
 .project-gallery__title {
@@ -387,7 +384,6 @@ footer {
 }
 
 .project-gallery__card {
-  border: 2px solid black;
   width: 22rem;
   padding: 1rem;
 }
