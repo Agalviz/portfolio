@@ -219,6 +219,7 @@ footer {
 }
 
 .hero {
+  border: solid 2px red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -244,7 +245,8 @@ footer {
   text-align: left;
   line-height: 1.5rem;
   padding: 1rem 3rem 1rem 3rem;
-  width: 13.3rem;
+  width: 19rem;
+  height: 13rem;
 }
 
 .about__p {
@@ -257,6 +259,7 @@ footer {
 }
 
 .skills-banner {
+  border: solid 2px red;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -282,9 +285,11 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  gap: 4rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 22rem;
+  border: solid black 2px;
 }
 
 .icon-card {
@@ -373,8 +378,8 @@ footer {
           box-shadow: 0 3px 10px;
   border-radius: 0.2rem;
   border: rgba(240, 240, 240, 0.24);
-  height: 10rem;
-  width: 5rem;
+  height: 13rem;
+  width: 19rem;
 }
 
 .project-gallery__title {
@@ -384,9 +389,11 @@ footer {
 .project-gallery__card {
   border: 2px solid black;
   width: 22rem;
+  padding: 1rem;
 }
 
 .contact {
+  border: solid red 2px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -407,7 +414,7 @@ footer {
 }
 
 .contact-form-container {
-  width: 13.3rem;
+  width: 19rem;
   padding: 1rem;
   border-radius: 0.2rem;
   border: rgba(240, 240, 240, 0.24);
