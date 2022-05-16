@@ -102,7 +102,7 @@ footer {
   width: 20rem;
   height: 13rem;
   &__p {
-    text-align: justify;
+    text-align:center;
     font-size: 1.2rem;
     font-weight: 300;
     padding: 1.5rem;
@@ -125,9 +125,10 @@ footer {
   }
 
   &__con{
+    // border: 2px solid yellow;
     display: flex;
     justify-content: space-around;
-    width: 22rem;
+    width: 20rem;
     // border: solid black 2px;
   }
 }
@@ -202,7 +203,7 @@ footer {
   padding: 1rem;
 }
 .contact-form-container {
-  width:19rem;
+  width:20rem;
   padding: 1rem;
   border-radius: 0.2rem;
   border: rgba(240, 240, 240, 0.24);
