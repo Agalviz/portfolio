@@ -159,6 +159,7 @@ footer {
   display: flex;
   align-items: center;
   flex-direction: column;
+  border: solid 2px red;
   
   &__container {
     flex-direction: column;
@@ -170,7 +171,7 @@ footer {
     box-shadow: 0 3px 10px;
     border-radius: 0.2rem;
     border: rgba(240, 240, 240, 0.24);
-    height: 10em;
+    height: 10rem;
     width: 5rem;
   }
   &__title {
@@ -178,7 +179,9 @@ footer {
   }
 
   &__card{
-    background-color: aquamarine;
+    // background-color: aquamarine;
+    border: 2px solid black;
+    width: 22rem;
   }
 }
 .contact {
