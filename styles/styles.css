@@ -102,18 +102,13 @@ p {
 }
 
 nav {
-  position: -webkit-sticky;
-  position: sticky;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  top: 0;
-  left: 0;
-  z-index: 1;
   height: 10vh;
   -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
           box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
-  background-color: coral;
+  background-color: black;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -154,7 +149,7 @@ footer {
           align-items: center;
   height: 7rem;
   width: 20rem;
-  padding: 1rem;
+  padding: 1rem 0 1rem 0;
 }
 
 .menu {
@@ -170,7 +165,7 @@ footer {
   right: 0;
   bottom: 0;
   z-index: 99;
-  background-color: slategray;
+  background-color: black;
   padding-top: 4rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -197,6 +192,7 @@ footer {
   position: absolute;
   z-index: 100;
   top: 1rem;
+  color: blanchedalmond;
   right: 1.2rem;
   padding: 4px;
   border: none;
