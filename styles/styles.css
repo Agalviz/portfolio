@@ -228,6 +228,7 @@ footer {
 }
 
 .about {
+  background-color: white;
   border-radius: 0.2rem;
   -webkit-box-shadow: 0 3px 10px;
           box-shadow: 0 3px 10px;
